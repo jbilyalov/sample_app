@@ -52,7 +52,7 @@ describe "StaticPages" do
     click_link "Contact"
     expect(page).to have_title('Contact')
     click_link "Sign in"
-    expect(page).to have_title('Sign Up')
+    expect(page).to have_title('Sign in')
     click_link "sample app"
     expect(page).to have_title('Sample App')
   end
