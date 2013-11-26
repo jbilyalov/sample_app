@@ -4,6 +4,7 @@
     <section>
       <h1>
         <%= gravatar_for(@user) %>
+        <%= current_remember_token %>
         <%= @user.name %>
       </h1>
     </section>
